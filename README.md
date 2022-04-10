@@ -19,7 +19,7 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-### Developed By:Vingneshwar S
+### Developed By:Vigneshwar S
 ### Register Number: 212220230058
 i) #To Read,display the image
 ```

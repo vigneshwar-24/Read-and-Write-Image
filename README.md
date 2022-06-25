@@ -1,4 +1,6 @@
-# READ AND WRITE AN IMAGE
+### EX NO : 1
+### DATE  : 01.04.2022
+# <p align="center">READ AND WRITE AN IMAGE</p>
 ## AIM
 To write a python program using OpenCV to do the following image manipulations.
 i) Read, display, and write an image.
@@ -18,10 +20,18 @@ Use imshow(window_name, image) to display the image.
 Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
+
+<br>
+<br>
+<br>
+<br>
+
 ## Program:
-### Developed By:Vigneshwar S
-### Register Number: 212220230058
-i) #To Read,display the image
+```
+# Developed By:S Vigneshwar
+# Register Number: 212220230058
+```
+i) # To Read,display the image
 ```
 import cv2
 image_1=cv2.imread("img1.jpg")
@@ -30,7 +40,7 @@ cv2.imshow("pic1",image_1)
 cv2.waitKey(0)
 cv2.imshow("pic2",image_2)
 cv2.waitKey(0)
-
+  
 
 ```
 ii) #To write the image
@@ -57,7 +67,6 @@ cv2.imshow("pic_2",image_2)
 cv2.waitKey(0)
 
 
-
 ```
 v) #To cut and paste portion of image
 ```python3
@@ -71,35 +80,40 @@ cv2.waitKey(0)
 ## Output:
 
 ### i) Read and display the image
+![Screenshot (23)](https://user-images.githubusercontent.com/75234588/175551203-0457194e-f35f-4683-8c26-2a5402d2f800.png)
 
-<br>![Screenshot (29)](https://user-images.githubusercontent.com/77089276/162615669-9272f503-b28b-42a7-9fd1-5753a106bf17.png)
-![Screenshot (30)](https://user-images.githubusercontent.com/77089276/162615683-c43c0898-77f5-4fe0-9494-af376e4f594a.png)
 
+<br>
+
+![Screenshot (24)](https://user-images.githubusercontent.com/75234588/164487515-bc8e335d-541d-415c-9063-3dcf5cfba7e9.png)
+
+<br>
+<br>
 <br>
 
 ### ii)Write the image
 
-<br>![Screenshot (36)](https://user-images.githubusercontent.com/77089276/162615687-97178f58-e325-4336-8d94-e8bce6e78f0b.png)
+<br>![Screenshot (28)](https://user-images.githubusercontent.com/75234588/164487607-d8050bbc-de06-4c3b-b32d-d4275af9ceb4.png)
 
 <br>
 
 ### iii)Shape of the Image
 
-<br>![Screenshot (35)](https://user-images.githubusercontent.com/77089276/162615694-08986729-c15f-45e3-98bd-3589b271cf0c.png)
+<br>![Screenshot (25)](https://user-images.githubusercontent.com/75234588/164487674-c32b3829-4f87-4f40-a092-a3b013cc138d.png)
+
 
 <br>
 
 ### iv)Access rows and columns
-<br>![Screenshot (32)](https://user-images.githubusercontent.com/77089276/162615699-d3a61277-534b-4b31-81a1-fbb0ffbb3fde.png)
+<br>![Screenshot (26)](https://user-images.githubusercontent.com/75234588/164487720-76a375c4-e50f-4cb9-9c90-b9ad23c15298.png)
 
 <br>
 
 ### v)Cut and paste portion of image
-<br>![Screenshot (33)](https://user-images.githubusercontent.com/77089276/162615700-6c8a97a1-8eb6-4a95-9272-2d0d7fea5dad.png)
+<br>![Screenshot (27)](https://user-images.githubusercontent.com/75234588/164487742-1acfd676-046c-404c-b7a1-81afc7b8b5b0.png)
 
 <br>
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
-
 
